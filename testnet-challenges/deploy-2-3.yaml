@@ -5,7 +5,7 @@ services:
   akash:
     image: ghcr.io/ovrclk/akash-on-akash:v0.0.4
     env:
-      - AKASH_MONIKER=
+      - AKASH_MONIKER=cfz00fj3wzwi4rp
       - STATE_SYNC=1
       - SEEDS_URL=https://raw.githubusercontent.com/ovrclk/net/master/definet/seed-nodes.txt
       - SYNC_URL=https://raw.githubusercontent.com/ovrclk/net/master/definet/rpc-nodes.txt
